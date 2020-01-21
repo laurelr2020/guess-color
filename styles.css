@@ -1,0 +1,36 @@
+body{
+    background-color: whitesmoke;
+}
+
+button{
+    background-color: palevioletred; /* Green */
+    color: whitesmoke;
+    font-size: larger;
+    padding: 12px 28px;
+}
+
+section{
+    margin-top: 50px;
+    padding: 10px;
+}
+
+nav{
+    margin: 10px;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin-left: 0;
+}
+
+li{
+    float: left;
+}
+
+li a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    background-color: palevioletred;
+    color: whitesmoke;
+}
