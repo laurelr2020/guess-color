@@ -5,7 +5,7 @@ class Global{
         let canvas = document.getElementById("canvas");
         this.context = canvas.getContext('2d');
 
-        this.colorBox = new Box(150, 100, 200, 200, "black");
+        this.colorBox = new Box(150, 100, 200, 200, "rgb(0, 0, 0)");
     }
 
     createCanvasBackground(){
@@ -17,7 +17,7 @@ class Global{
         this.context.strokeRect(0, 0, 500, 400);
     }
 
-    clearBoard(){
+    clearCanvas(){
         this.context.clearRect(0, 0, 500, 400);
         this.createCanvasBackground();
     }

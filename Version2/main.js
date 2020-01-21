@@ -10,6 +10,7 @@ function init(){
 }
 
 function showNewColor(){
+    global.clearCanvas();
     global.colorBox.changeColor();
     global.colorBox.draw();
 }
