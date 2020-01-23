@@ -20,6 +20,6 @@ class Box{
 }
 
 function generateRandomColor(){
-    let colorMax = 255;
-    return Math.floor(Math.random() * colorMax);
+    let colorMax = 256;
+    return Math.floor.Math.random() * colorMax;
 }
